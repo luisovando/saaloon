@@ -1,0 +1,403 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media screen
+and (min-width: 320px)
+and (max-width: 480px) {
+    header{
+        background: url('../images/back_movil.png') no-repeat bottom center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 140px;
+        min-height: 120px;
+        max-height: 250px;
+        width: 100%;
+        position: fixed;
+        z-index: 500;
+    }
+    div.item > div.row > div{
+        margin:1.5em
+    }
+
+    .affix{
+        position: static;
+    }
+    .affix-top{
+        top: 1%;
+    }
+
+    #footer{
+        height: 100px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background-color: #ED1E79;
+    }
+    #container_slogan {
+        position: absolute;
+        bottom: 20%;
+        right: 10%;
+        width: 100%;
+        /*background-color: #ffffff;*/
+    }
+    #init-divider{
+        height: 6em;
+    }
+    #nav {
+        width: 100%;
+        position: absolute;
+        bottom: 30%;
+    }
+    .navbar-left {
+        margin-left: 1em;
+        float: left !important;
+    }
+
+    #pills-stylebook > li{
+        display: inline-block;
+    }
+    #pills-stylebook{
+        font-size: 0.70em;
+        margin-top: 30%;
+    }
+    #slogan {
+        color: #CCCCCC;
+        font-family: 'Mandala', 'Josefin Sans', sans-serif;
+        font-size: 2em;
+        text-align: center;
+    }
+
+    .container{
+        margin-top: -100px;
+    }
+    .title-dist{
+        font-size: 3.3em !important;
+        margin-top: 20px;
+    }
+    .social {
+        position: relative;
+        top: -35%;
+        text-align: right;
+    }
+    .fields{
+        width: 100%;
+    }
+    #mensaje::-webkit-input-placeholder {
+        line-height: 100%;
+    }
+    #mensaje::-moz-placeholder {
+        line-height: 100% !important;
+    }
+    #mensaje:-ms-input-placeholder {
+        line-height: 242%;
+    }
+    #mensaje:-moz-placeholder {
+        line-height: 100%;
+    }
+
+    .carousel-control {
+        opacity: 1;
+        width: 1%;
+    }
+    .carousel-control.right, .carousel-control.left {
+        background-image: none !important;
+    }
+
+    .carousel-control .glyphicon-chevron-right, .carousel-control .glyphicon-chevron-left {
+        color: #ED1E79;
+        font-size: 170%;
+    }
+
+    .carousel-control .glyphicon-chevron-left{
+        margin-right: 0.5em;
+    }
+
+    .carousel-control .glyphicon-chevron-right{
+        margin-left: 0.5em;
+    }
+
+    .navbar-custom .navbar-nav li > a:hover, .navbar-nav li .open{
+        background-color: #E6E6E6;
+    }
+
+    .navbar-custom .navbar-nav .active a{
+        background-color: transparent;
+    }
+
+    .navbar-inverse .navbar-toggle:hover,
+    .navbar-inverse .navbar-toggle:focus {
+        background-color: transparent;
+    }
+
+    div.navbar-collapse{
+        background-color: rgba(230, 230, 230, 0.4);
+        background: rgba(230, 230, 230, 0.4);
+        color: rgba(230, 230, 230, 0.4);
+    }
+
+    .navbar-inverse .navbar-toggle .icon-bar {
+        background-color: #ffffff !important;
+    }
+}
+
+/* Smartphones (landscape) ----------- */
+@media screen
+and (min-width: 321px) {
+    /* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media screen
+and (max-width: 320px) and (orientation: portrait) {
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media screen
+and (min-width: 768px)
+and (max-width: 1024px) {
+    header{
+        background: url('../images/back_ini_3.png') no-repeat bottom center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 550px;
+        width: 100%;
+    }
+
+    div.item > div.row > div{
+        margin:1.5em
+    }
+
+    #footer{
+        height: 100px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background-color: #ED1E79;
+    }
+
+    .title-dist{
+        font-size: 3.3em !important;
+        margin-top: 20px;
+    }
+
+    .fields{
+        width: 100%;
+    }
+
+    #mensaje::-webkit-input-placeholder {
+        line-height: 100%;
+    }
+    #mensaje::-moz-placeholder {
+        line-height: 100% !important;
+    }
+    #mensaje:-ms-input-placeholder {
+        line-height: 242%;
+    }
+    #mensaje:-moz-placeholder {
+        line-height: 100%;
+    }
+
+    .carousel-control {
+        opacity: 1;
+        width: 1%;
+    }
+    .carousel-control.right, .carousel-control.left {
+        background-image: none !important;
+    }
+    .carousel-control .glyphicon-chevron-right, .carousel-control .glyphicon-chevron-left {
+        color: #ED1E79;
+        font-size: 170%;
+    }
+    .carousel-control .glyphicon-chevron-left{
+        margin-right: 0.5em;
+    }
+    .carousel-control .glyphicon-chevron-right{
+        margin-left: 0.5em;
+    }
+
+    .navbar-brand-absolute {
+        position: absolute;
+        top: -750%;
+        left: 1%;
+    }
+}
+
+/* iPads (landscape) ----------- */
+@media screen
+and (min-width: 768px)
+and (max-width: 1024px)
+and (orientation: landscape) {
+    #nav.affix{
+        background-color: #ffffff;
+        height: 50px;
+        z-index: 500;
+    }
+    div.item > div.row > div{
+        margin:1.5em;
+        text-align: center;
+    }
+    #container_slogan{
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        bottom: -20%;
+        min-width: 980px;
+        max-width: 1024px;
+        width: 100%;
+    }
+    #init-divider{
+        height: 120px;
+    }
+    #pills-stylebook{
+        display: table;
+        font-size: 1.5em;
+        width: 100%;
+    }
+    #pills-stylebook > li{
+        display: table-cell;
+        vertical-align: middle;
+
+    }
+    #slogan {
+        color: #CCCCCC;
+        font-family: 'Mandala', 'Josefin Sans', sans-serif;
+        font-size: 7em;
+        text-align: center;
+    }
+    #wrap > div.container {
+        margin-top: -1%;
+    }
+    #carousel-stylebook > div.carousel-inner > div.item > div.row{
+        border: 1px red solid;
+    }
+
+    div.item{
+        display:table;
+        border-collapse: separate;
+        border-spacing: 1em;
+        width: 100%;
+    }
+
+    div.item > div.row{
+        display: table-row;
+        width: inherit;
+    }
+
+    div.item > div.row > div{
+        display: table-cell;
+        width: 25%;
+    }
+}
+
+/* iPads (portrait) ----------- */
+@media screen
+and (min-width: 768px)
+and (max-width: 1024px)
+and (orientation: portrait) {
+    /* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media screen
+and (min-width: 1224px) {
+    /* Styles */
+    #nav.affix{
+        background: #ffffff url('../images/logo_menu.png') no-repeat 5% bottom;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
+        height: 91px;
+        padding-top: 45px;
+        z-index: 500;
+    }
+
+    #nav.affix > div > div.collapse{
+        vertical-align: bottom;
+    }
+
+    #nav.affix > div > div.navbar-brand-absolute{
+        display: none !important;
+    }
+    .social {
+        position: fixed;
+        bottom: 15%;
+        right: 1%;
+        text-align: right
+    }
+    .carousel-control {
+        opacity: 1;
+        width: 10%;
+
+    }
+    .carousel-control .glyphicon-chevron-right, .carousel-control .glyphicon-chevron-left {
+        color: #ED1E79;
+        font-size: 2.5em;
+        margin-top: -0.5em;
+    }
+    .carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+        margin-left: -2em;
+    }
+    .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+        margin-right: -1.7em;
+    }
+    .carousel-control.right, .carousel-control.left {
+        background-image: none !important;
+    }
+}
+
+/* Large screens ----------- */
+@media screen
+and (min-width: 1824px) {
+    /* Styles */
+    #nav.affix{
+        background: #ffffff url('../images/logo_menu.png') no-repeat left bottom;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
+        height: 91px;
+        padding-top: 45px;
+    }
+    #nav.affix > div > div.navbar-brand-absolute{
+        display: none !important;
+    }
+    .social {
+        position: fixed;
+        bottom: 45%;
+        right: 1%;
+        text-align: right
+    }
+    #title-productos{
+        margin-top: 20%;
+    }
+
+    div#title-productos.title-section-container{
+        margin-top: 18%
+    }
+
+    .carousel-control {
+        opacity: 1;
+        width: 10%;
+    }
+    .carousel-control .glyphicon-chevron-right, .carousel-control .glyphicon-chevron-left {
+        color: #ED1E79;
+        font-size: 2.5em;
+        margin-top: -0.5em;
+    }
+    .carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+        margin-left: -2em;
+    }
+    .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+        margin-right: -1.7em;
+    }
+    .carousel-control.right, .carousel-control.left {
+        background-image: none !important;
+    }
+}
+
+/* iPhone 4 ----------- */
+@media screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-device-pixel-ratio: 1.5) {
+    /* Styles */
+}

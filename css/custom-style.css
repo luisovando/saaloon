@@ -1,0 +1,506 @@
+/* FONTS */
+@import url(http://fonts.googleapis.com/css?family=Kreon:400,700);
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+
+@font-face {
+    font-family: 'Mandala';
+    src: url('../fonts/Mandala/Mandala.ttf.woff') format('woff'),
+    url('../fonts/Mandala/Mandala.ttf.svg#Mandala') format('svg'),
+    url('../fonts/Mandala/Mandala.ttf.eot'),
+    url('../fonts/Mandala/Mandala.ttf.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html,
+body {
+    height: 100%;
+    /* The html and body elements cannot have any padding or margin. */
+    -webkit-font-smoothing: antialiased;
+    font: normal 14px arial, sans-serif;
+}
+
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    /* Negative indent footer by its height */
+    margin: 0 auto -60px;
+    /* Pad bottom by footer height */
+    padding: 0 0 60px;
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+    height: 75px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+
+.thumbnail {
+    width: 300px;
+    height: 300px;
+    overflow: auto;
+}
+
+#wrap > .container {
+    padding: 60px 15px 0;
+}
+
+.container .credit {
+    margin: 20px 0;
+}
+
+#footer {
+    background-color: #452E7D;
+}
+
+#footer a {
+    color: #efefef;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Kreon', serif;
+    vertical-align: top;
+}
+
+header {
+    background: url('../images/back_ini_3.png');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    height: 450px;
+    color: #000000;
+    position: relative;
+}
+
+header h1, header h2, header h3 a, header a, header a:hover {
+    color: #101010;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+header h3 {
+    font-family: 'Kreon', serif;
+    background: #ffcc33;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 34px;
+    padding: 12px 10px 6px 10px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+#nav {
+    width: 100%;
+    position: absolute;
+    bottom: 70px;
+    right: 1%;
+}
+
+#nav.affix {
+    position: fixed;
+    top: 0;
+    z-index: 5;
+    -webkit-transition: all .6s ease-in-out;
+}
+
+#footer > .container {
+
+}
+
+@media (min-width: 767px) {
+    .navbar-nav.nav-justified > li {
+        float: none;
+    }
+}
+
+.navbar-nav {
+    margin: 1px 1px;
+}
+
+/* customize nav style */
+.navbar-custom {
+    background-color: transparent;
+    font-weight: 700;
+    height: 100px !important;
+    text-transform: uppercase;
+    border-width: 0;
+}
+
+.navbar-custom .navbar-nav > li > a {
+    color: #B3B3B3;
+}
+
+.navbar-nav li {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5em;
+}
+
+.navbar-custom .navbar-nav li > a:hover, .navbar-nav li .open, .navbar-custom .navbar-nav .active a {
+    background-color: transparent;
+    color: #EB0B8D;
+}
+
+.navbar-collapse.in {
+    /*3.0.2 bug workaround*/
+    overflow-y: visible;
+    z-index: 300;
+}
+
+.navbar-toggle {
+    outline: 0;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: transparent;
+}
+
+.divider {
+    height: 0.2em;
+    padding: 2% 0;
+}
+
+.custom-divider {
+    background: url('../images/divider_gris.png') no-repeat center center;
+    background-size: 100% auto;
+    height: 10em;
+    margin: 2em 0 0 0;
+    padding: 5% 0;
+    width: 100%;
+    z-index: -10;
+}
+
+.panel {
+    border-width: 0;
+}
+
+@media (max-width: 768px) {
+    header {
+        height: 95px;
+    }
+}
+
+#map-canvas {
+    width: 100%;
+    height: 300px;
+    margin: 0;
+    padding: 15px;
+}
+
+.scroll-top {
+    position: fixed;
+    bottom: 0;
+    right: 6%;
+    z-index: 100;
+    background: #ffcc33;
+    font-size: 24px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.scroll-top a:link, .scroll-top a:visited {
+    color: #222;
+}
+
+section {
+    color: #ffffff;
+    min-height: 400px;
+    height: auto !important;
+    height: 100%;
+    padding-top: 100px;
+}
+
+.bg-1 {
+    background: url('http://www.bootply.com/assets/example/bg_4.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.bg-2 {
+    background: url('http://www.bootply.com/assets/example/bg_5.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.bg-3 {
+    background: url('http://www.bootply.com/assets/example/bg_6.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.bg-4 {
+    padding-top: 30px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(20, 20, 20, 0.2)), to(rgba(255, 255, 255, 0)), color-stop(1, #000));
+}
+
+.social {
+    position: fixed;
+    bottom: 15%;
+    right: 1%;
+    text-align: right;
+    z-index: 10;
+}
+
+.navbar-brand-absolute {
+    position: absolute;
+    top: -240%;
+    left: 7.5%;
+}
+
+#container_slogan {
+    position: absolute;
+    bottom: -33%;
+    right: 18%;
+}
+
+#slogan {
+    color: #CCCCCC;
+    font-family: 'Mandala', 'Josefin Sans', sans-serif;
+    font-size: 7.5em;
+    text-align: center;
+}
+
+.section-name {
+    color: #CCCCCC;
+    display: inline-block;
+    font-family: 'Mandala', 'Josefin Sans', sans-serif;
+    font-size: 5.5em;
+    /*-ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);*/
+    writing-mode: vertical-lr;
+    min-height: 100%;
+    height: 100%;
+}
+
+.row-image {
+    margin: 1.5em
+}
+
+.title-section {
+    color: #CCCCCC;
+    display: block;
+    font-family: 'Mandala', 'Josefin Sans', sans-serif;
+    font-size: 5em;
+    height: 100%;
+    min-height: 100%;
+    text-align: center;
+}
+
+.section_title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+}
+
+.section_content {
+    color: #EB0B8D;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.05em;
+    text-align: justify;
+
+}
+
+.title-section-container {
+    /*margin-top: 18%;*/
+    margin-top: 0;
+}
+
+#title-contacto {
+    margin: 14% auto !important;
+}
+
+#title-sucursales {
+    margin-top: 18% !important;
+}
+
+#title-servicios {
+    margin-top: 12% !important;
+}
+
+#divider-final {
+    background: url('../images/divider_final.png') no-repeat right bottom;
+    background-size: 100% auto;
+    height: 50px;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+    color: #EB0B8D;
+    background-color: transparent;
+}
+
+.labels {
+    color: #999999;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    font-weight: normal !important;
+    display: block;
+}
+
+.fields {
+    border: none;
+    border-bottom: 0.15em solid #CCCCCC;
+    color: #999999;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    margin-bottom: 2.5em;
+    margin-top: 0.3em;
+    width: 50%;
+}
+
+.fields:focus {
+    border: none;
+    border-bottom: 0.15em solid #452E7D;
+}
+
+textarea.fields {
+    resize: none;
+}
+
+#mensaje::-webkit-input-placeholder {
+    line-height: 242%;
+}
+
+#mensaje::-moz-placeholder {
+    line-height: 500%;
+}
+
+#mensaje:-ms-input-placeholder {
+    line-height: 242%;
+}
+
+#mensaje:-moz-placeholder {
+    line-height: 500%;
+}
+
+#div-contact {
+    padding: 2em;
+    z-index: 15;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+}
+
+.btn-default {
+    color: #FFF;
+    background-color: #999999;
+}
+
+.btn-default:hover {
+    color: #FFF;
+    /*background-color: #ED1E79;*/
+    background-color: #ADA3C7;
+}
+
+ul.nav-pills li {
+    padding: 0.5em 1.5em;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
+    background-color: transparent;
+    /*color: #ED1E79;*/
+    color: #ADA3C7;
+}
+
+.nav-pills > li > a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    padding: 0 !important;
+}
+
+.nav-pills > li > a:hover {
+    background-color: transparent;
+    /*color: #ED1E79;*/
+    color: #ADA3C7;
+}
+
+div.container > ul.nav-pills {
+    padding: 1% 13%;
+    margin-bottom: 1em;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+#title-dist {
+    font-size: 0.85em !important;
+}
+
+#title-dist > p {
+    margin-top: 1em;
+}
+
+.tile-background {
+    background-color: #E6E6E6;
+    margin: 1em;
+}
+
+.titulo-distribuidor {
+    color: #EB0B8D;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3em;
+    margin-top: 0.5em;
+}
+
+#init-divider {
+    height: 220px;
+}
+
+#pills-productos {
+    margin-bottom: 5em;
+}
+
+#pills-productos > li {
+    width: 20em;
+}
+
+/********** FancyBox **********/
+.product-title {
+    color: #EB0B8D;
+}
+
+.product-content {
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+}
+
+.thumb-title {
+    text-align: right;
+}
+
+.big_gallery {
+    padding-top: 0.5em;
+}
+/* fontawesome */
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
