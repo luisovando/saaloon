@@ -1,0 +1,1 @@
+function sendEmail(){$form=$("#frmcontacto");$form[0].checkValidity()&&$.post("mailer/email.php",$form.serialize(),function(a){"1"==a?(alert("Tu mensaje ha sido enviado vía email satisfactoriamente"),$form.reset()):alert(a)})};
